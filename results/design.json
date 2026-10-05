@@ -1,0 +1,16 @@
+{
+  "base_rate": 0.62,
+  "mde": 0.02,
+  "alpha": 0.05,
+  "power": 0.8,
+  "icc": 0.02,
+  "patients_per_pharmacy_per_month": 800,
+  "months": 2,
+  "pharmacies_per_arm": 189,
+  "randomization_unit": "pharmacy_location",
+  "primary_metric": "refill_within_7d_rate",
+  "guardrails": [
+    "opt_out_rate",
+    "support_tickets_per_1k"
+  ]
+}
